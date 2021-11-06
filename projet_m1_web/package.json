@@ -1,15 +1,13 @@
 {
-    "name": "projet_m1_web",
-    "version": "0.1.0",
+    "name": "autorental",
+    "version": "1.0.0",
     "private": true,
     "scripts": {
-        "serve": "node ./bin/www",
+        "start": "node ./bin/www",
         "start:dev": "nodemon ./bin/www --unhandled-rejections=warn",
         "initdb": "node ./server/data/init-db.js"
     },
     "dependencies": {
-        "core-js": "^3.6.5",
-        "vue": "^3.0.0",
         "bcrypt": "^5.0.0",
         "cookie-parser": "~1.4.5",
         "debug": "~4.2.0",
@@ -20,32 +18,6 @@
         "pg": "^8.5.1"
     },
     "devDependencies": {
-        "@vue/cli-plugin-babel": "~4.5.0",
-        "@vue/cli-plugin-eslint": "~4.5.0",
-        "@vue/cli-service": "~4.5.0",
-        "@vue/compiler-sfc": "^3.0.0",
-        "babel-eslint": "^10.1.0",
-        "eslint": "^6.7.2",
-        "eslint-plugin-vue": "^7.0.0",
         "nodemon": "^2.0.6"
-    },
-    "eslintConfig": {
-        "root": true,
-        "env": {
-            "node": true
-        },
-        "extends": [
-            "plugin:vue/vue3-essential",
-            "eslint:recommended"
-        ],
-        "parserOptions": {
-            "parser": "babel-eslint"
-        },
-        "rules": {}
-    },
-    "browserslist": [
-        "> 1%",
-        "last 2 versions",
-        "not dead"
-    ]
+    }
 }

@@ -1,6 +1,6 @@
 module.exports.DBConfig = {
     user: 'postgres',
     host: 'localhost',
-    password: 'autorental',
+    password: '',
     database: 'autorental'
 }
