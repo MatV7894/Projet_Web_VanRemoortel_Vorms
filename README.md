@@ -1,4 +1,5 @@
 # projet_m1_web
+Attention : il faut sortir le sous dossier projet_m1_web du dossier Projet_Web_VanRemoortel_Vorms
 
 # AutoRental
 
